@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="IA32">
+      <UniqueIdentifier>{e163a42d-46d0-4dd1-9537-bc8d22af9b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde">
+      <UniqueIdentifier>{1be30620-eee5-4f1a-87ac-9899d225b6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8a28024b-086b-4bbe-a3a5-9dcd6d254d7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\kstdint.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde32.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="IA32\ia32_compact.h">
+      <Filter>IA32</Filter>
+    </ClInclude>
+    <ClInclude Include="IA32\ia32_defines_only.h">
+      <Filter>IA32</Filter>
+    </ClInclude>
+    <ClInclude Include="IA32\ia32.h">
+      <Filter>IA32</Filter>
+    </ClInclude>
+    <ClInclude Include="IA32\ia32.hpp">
+      <Filter>IA32</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pageHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table32.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde_stdint.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pageHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.cpp">
+      <Filter>hde</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde32.cpp">
+      <Filter>hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
